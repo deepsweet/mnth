@@ -1,0 +1,7 @@
+node_modules/
+tmp/
+build/
+coverage/
+.npmrc
+*.log
+.DS_Store
