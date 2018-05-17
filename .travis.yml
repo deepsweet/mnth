@@ -2,15 +2,15 @@
 
 sudo: false
 language: node_js
-node_js:
-  - 6
-  - 8
-  - 10
+node_js: lts/carbon
 env:
   global:
     - PATH=$HOME/.yarn/bin:$PATH
 before_install:
   - curl -o- -L https://yarnpkg.com/install.sh | bash
+addons:
+  chrome: stable
+  firefox: latest
 cache:
   yarn: true
   directories:
@@ -20,4 +20,4 @@ branches:
     - master
 matrix:
   fast_finish: true
-script: yarn start ci
+script: yarn karma start karma.conf.js

@@ -46,6 +46,7 @@
     "@start/plugin-write": "^0.1.1",
     "@start/reporter-verbose": "^0.1.0-2",
     "@types/node": "^10.0.5",
+    "babel-loader": "^8.0.0-0",
     "date-fns": "^2.0.0-0",
     "eslint": "^4.19.1",
     "eslint-config-standard": "^11.0.0",
@@ -54,9 +55,16 @@
     "eslint-plugin-promise": "^3.7.0",
     "eslint-plugin-standard": "^3.0.1",
     "esm": "^3.0.34",
+    "karma": "^2.0.2",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-firefox-launcher": "^1.1.0",
+    "karma-tap": "^4.1.4",
+    "karma-tap-pretty-reporter": "^4.0.0",
+    "karma-webpack": "^3.0.0",
     "tap-diff": "^0.1.1",
     "typescript": "^2.8.3",
-    "typescript-eslint-parser": "^15.0.0"
+    "typescript-eslint-parser": "^15.0.0",
+    "webpack": "^4.8.3"
   },
   "start": {
     "require": [
