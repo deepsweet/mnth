@@ -6,6 +6,8 @@ Framework-agnostic base block to build calendars, datepickers, etc by rendering 
 
 ## Requirements
 
+* [`date-fns@next`](https://github.com/date-fns/date-fns) dependency
+
 ### Node
 
 * Node.js >= 6
