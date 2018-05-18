@@ -1,6 +1,6 @@
 # mnth
 
-[![npm](https://img.shields.io/npm/v/mnth.svg?style=flat-square)](https://www.npmjs.com/package/mnth) [![linux](https://img.shields.io/travis/deepsweet/mnth/master.svg?label=linux&style=flat-square)](https://travis-ci.org/deepsweet/mnth) [![coverage](https://img.shields.io/codecov/c/github/deepsweet/mnth.svg?style=flat-square)](https://codecov.io/github/deepsweet/mnth)
+[![npm](https://img.shields.io/npm/v/mnth.svg?style=flat-square)](https://www.npmjs.com/package/mnth) [![tests](https://img.shields.io/travis/deepsweet/mnth/master.svg?label=tests&style=flat-square)](https://travis-ci.org/deepsweet/mnth) [![coverage](https://img.shields.io/codecov/c/github/deepsweet/mnth.svg?style=flat-square)](https://codecov.io/github/deepsweet/mnth)
 
 Convert date to an array of calendar month.
 
@@ -19,7 +19,7 @@ Convert date to an array of calendar month.
 ## Install
 
 ```sh
-$ yarn add date-fns@^2.0.0-0 mnth
+$ yarn add date-fns@next mnth
 ```
 
 ## Usage
