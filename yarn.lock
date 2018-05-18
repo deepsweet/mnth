@@ -612,9 +612,9 @@
     istanbul-lib-report "^1.1.4"
     istanbul-lib-source-maps "^1.2.3"
 
-"@start/plugin-lib-karma@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@start/plugin-lib-karma/-/plugin-lib-karma-0.1.0.tgz#0982cb7c062f56ddac578707fdebb6b357226f9b"
+"@start/plugin-lib-karma@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@start/plugin-lib-karma/-/plugin-lib-karma-0.1.1.tgz#2ae7d8e25d0980f5461958ec8fb703c7aed76413"
   dependencies:
     "@babel/runtime" "^7.0.0-0"
     "@start/plugin" "^0.1.0-0"
