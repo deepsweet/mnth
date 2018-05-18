@@ -20,4 +20,4 @@ branches:
     - master
 matrix:
   fast_finish: true
-script: yarn karma start karma.conf.js
+script: yarn start ci
