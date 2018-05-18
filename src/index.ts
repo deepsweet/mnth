@@ -7,6 +7,8 @@ import {
   startOfMonth
 } from 'date-fns/esm'
 
+const DAYS_IN_WEEK = 7
+
 type Options = {
   firstDay: 0 | 1 | 2 | 3 | 4 | 5 | 6
 }
@@ -21,8 +23,8 @@ const mnth = (date: Date, options?: Options): Date[][] => {
   const lastDateOfMonth = endOfMonth(date)
   const firstDayOfMonth = getDay(firstDateOfMonth)
   const lastDayOfMonth = getDay(lastDateOfMonth)
-  const daysToPrepend = (firstDayOfMonth - firstDay + 7) % 7
-  const daysToAppend = (6 - lastDayOfMonth + firstDay) % 7
+  const daysToPrepend = (firstDayOfMonth - firstDay + DAYS_IN_WEEK) % DAYS_IN_WEEK
+  const daysToAppend = (DAYS_IN_WEEK - 1 - lastDayOfMonth + firstDay) % DAYS_IN_WEEK
   const month: Date[][] = []
   let week: Date[] = []
 
