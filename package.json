@@ -31,7 +31,7 @@
     "@start/plugin-lib-codecov": "^0.1.0",
     "@start/plugin-lib-eslint": "^0.1.0",
     "@start/plugin-lib-istanbul": "^0.1.0",
-    "@start/plugin-lib-karma": "^0.1.0",
+    "@start/plugin-lib-karma": "^0.1.1",
     "@start/plugin-lib-npm-publish": "^0.1.0",
     "@start/plugin-lib-npm-version": "^0.1.0",
     "@start/plugin-lib-tape": "^0.1.0",
