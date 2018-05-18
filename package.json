@@ -1,6 +1,6 @@
 {
   "name": "mnth",
-  "version": "0.1.0-0",
+  "version": "0.1.0",
   "description": "Convert date to an array of calendar month",
   "keywords": "date, month, calendar",
   "homepage": "https://github.com/deepsweet/mnth",
