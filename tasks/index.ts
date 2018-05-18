@@ -16,6 +16,7 @@ import {
   istanbulReport,
   istanbulThresholds
 } from '@start/plugin-lib-istanbul'
+import karma from '@start/plugin-lib-karma'
 import tape from '@start/plugin-lib-tape'
 import tapDiff from 'tap-diff'
 import codecov from '@start/plugin-lib-codecov'
@@ -79,8 +80,10 @@ export const fix = () =>
     overwrite
   )
 
-export const test = () =>
-  sequence(
+export const test = async () => {
+  const { default: karmaConfig } = await import('./karma/config')
+
+  return sequence(
     find(`coverage/`),
     remove,
     find('src/*.ts'),
@@ -93,8 +96,10 @@ export const test = () =>
       functions: 100,
       lines: 100,
       statements: 100
-    })
+    }),
+    karma(karmaConfig)
   )
+}
 
 export const ci = () =>
   sequence(
