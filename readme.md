@@ -26,17 +26,13 @@ $ yarn add date-fns@next mnth
 
 ## Usage
 
-### Signature
-
-```ts
-mnth(date: Date, options?: {}): Date[][]
+```js
+mnth(date, options)
 ```
 
-#### `options`
-
-* `firstDay` – first day of the week, [from 0 to 6](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDay), `1` by default
-
-### Example
+* `date` – Date object
+* `options`
+  * `firstDay` – first day of the week, [from 0 to 6](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDay), `1` by default
 
 ```js
 import { format, parse } from 'date-fns/esm'
