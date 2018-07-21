@@ -25,6 +25,7 @@
     "@babel/preset-env": "^7.0.0-beta.46",
     "@babel/preset-typescript": "^7.0.0-beta.46",
     "@babel/register": "^7.0.0-beta.46",
+    "@deepsweet/browserslist-preset": "^0.1.0",
     "@start/cli": "^0.1.2",
     "@start/plugin-find": "^0.2.0",
     "@start/plugin-lib-babel": "^0.2.0",

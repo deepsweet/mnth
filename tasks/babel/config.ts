@@ -1,3 +1,5 @@
+import browsersList from '@deepsweet/browserslist-preset'
+
 const babelConfig = {
   babelrc: false,
   presets: [
@@ -32,7 +34,7 @@ export const babelConfigBrowser = {
       '@babel/preset-env',
       {
         targets: {
-          browsers: ['>0.5%', 'not op_mini all', 'not dead', 'Firefox ESR']
+          browsers: browsersList
         },
         modules: false
       }
