@@ -6,6 +6,9 @@ const babelConfig = {
     '@babel/preset-typescript'
   ],
   plugins: [
+    ['@babel/plugin-transform-runtime', {
+      polyfill: false
+    }],
     '@babel/plugin-syntax-dynamic-import'
   ]
 }
