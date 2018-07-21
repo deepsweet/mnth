@@ -15,7 +15,7 @@ Framework-agnostic base block to build calendars, datepickers, etc by rendering 
 
 ### Browser
 
-* [`>0.5%, not op_mini all, not dead, Firefox ESR`](http://browserl.ist/?q=%3E0.5%25%2C+not+op_mini+all%2C+not+dead%2C+Firefox+ESR)
+* Browser from the [supported list](https://github.com/deepsweet/_/blob/master/packages/browserslist-preset/index.js)
 * Bundler with ESM support like [webpack](https://webpack.js.org/)
 
 ## Install
