@@ -122,14 +122,12 @@
       "no-unused-vars": "off",
       "prefer-promise-reject-errors": "off",
       "promise/avoid-new": "off",
-      "node/no-unsupported-features": [
+      "node/no-unsupported-features/es-syntax": [
         "error",
         {
           "ignores": [
-            "asyncAwait",
-            "modules",
-            "restProperties",
-            "spreadProperties"
+            "asyncFunctions",
+            "modules"
           ]
         }
       ]
