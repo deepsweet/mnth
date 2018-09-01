@@ -4,6 +4,13 @@ import { LOG_ERROR } from 'karma/lib/constants'
 import { babelConfigBrowser } from '../babel/config'
 
 export default {
+  plugins: [
+    'karma-chrome-launcher',
+    'karma-firefox-launcher',
+    'karma-tap',
+    'karma-tap-pretty-reporter',
+    'karma-webpack'
+  ],
   colors: true,
   files: [
     'test/index.ts'
@@ -13,6 +20,9 @@ export default {
   },
   webpack: {
     mode: 'development',
+    output: {
+      filename: '[name]'
+    },
     node: {
       fs: 'empty'
     },
