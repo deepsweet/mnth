@@ -50,6 +50,7 @@
     "@start/plugin-write": "^0.2.0",
     "@start/reporter-verbose": "^0.1.0-2",
     "@types/node": "^10.9.4",
+    "@types/tape": "^4.2.32",
     "babel-loader": "^8.0.0",
     "date-fns": "^2.0.0-0",
     "eslint": "^5.5.0",

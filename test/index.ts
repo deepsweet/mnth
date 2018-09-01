@@ -3,8 +3,8 @@ import { format, parse } from 'date-fns/esm'
 
 import mnth from '../src'
 
-const parseDate = (date) => parse(date, 'yyyy-MM-dd', new Date())
-const formatMonth = (month) => month.map((week) =>
+const parseDate = (date: string) => parse(date, 'yyyy-MM-dd', new Date())
+const formatMonth = (month: Date[][]) => month.map((week) =>
   week.map((day) => format(day, 'yyyy-MM-dd'))
 )
 
