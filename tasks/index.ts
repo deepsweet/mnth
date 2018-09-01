@@ -20,8 +20,6 @@ import karma from '@start/plugin-lib-karma'
 import tape from '@start/plugin-lib-tape'
 import tapDiff from 'tap-diff'
 import codecov from '@start/plugin-lib-codecov'
-import npmVersion from '@start/plugin-lib-npm-version'
-import npmPublish from '@start/plugin-lib-npm-publish'
 
 export const buildNode = async () => {
   const { babelConfigNode } = await import('./babel/config')
@@ -108,11 +106,4 @@ export const ci = () =>
     find('coverage/lcov.info'),
     read,
     codecov
-  )
-
-export const publish = (version, otp) =>
-  sequence(
-    pack(),
-    npmVersion(version),
-    npmPublish('./', { otp })
   )

@@ -37,8 +37,6 @@
     "@start/plugin-lib-eslint": "^0.3.0",
     "@start/plugin-lib-istanbul": "^0.3.0",
     "@start/plugin-lib-karma": "^0.2.0",
-    "@start/plugin-lib-npm-publish": "^0.2.0",
-    "@start/plugin-lib-npm-version": "^0.2.0",
     "@start/plugin-lib-tape": "^0.2.0",
     "@start/plugin-lib-typescript-check": "^0.2.1",
     "@start/plugin-lib-typescript-generate": "^0.2.2",

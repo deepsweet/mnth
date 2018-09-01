@@ -726,22 +726,6 @@
     "@start/plugin" "^0.2.0"
     karma "^2.0.2"
 
-"@start/plugin-lib-npm-publish@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@start/plugin-lib-npm-publish/-/plugin-lib-npm-publish-0.2.0.tgz#0f0aae03c056ca541ef0fef0a9462f2b8a537a35"
-  dependencies:
-    "@babel/runtime" "^7.0.0-0"
-    "@start/plugin" "^0.2.0"
-    execa "^0.10.0"
-
-"@start/plugin-lib-npm-version@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@start/plugin-lib-npm-version/-/plugin-lib-npm-version-0.2.0.tgz#823f643273bd8b01d35d6235836bb198eff97e7f"
-  dependencies:
-    "@babel/runtime" "^7.0.0-0"
-    "@start/plugin" "^0.2.0"
-    execa "^0.10.0"
-
 "@start/plugin-lib-tape@^0.2.0":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@start/plugin-lib-tape/-/plugin-lib-tape-0.2.0.tgz#19ed671d936f91ca70953a7c48ee3a28cb90abf2"
@@ -849,9 +833,15 @@
     chalk "^2.4.0"
     stack-utils "^1.0.1"
 
-"@types/node@^10.9.4":
+"@types/node@*", "@types/node@^10.9.4":
   version "10.9.4"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.9.4.tgz#0f4cb2dc7c1de6096055357f70179043c33e9897"
+
+"@types/tape@^4.2.32":
+  version "4.2.32"
+  resolved "https://registry.yarnpkg.com/@types/tape/-/tape-4.2.32.tgz#1188330d22c4e822648c344faa070277737982d9"
+  dependencies:
+    "@types/node" "*"
 
 "@webassemblyjs/ast@1.5.13":
   version "1.5.13"
