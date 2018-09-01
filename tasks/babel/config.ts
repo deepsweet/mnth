@@ -1,27 +1,14 @@
 import browsersList from '@deepsweet/browserslist-preset'
 
-const babelConfig = {
+export const babelConfigNode = {
   babelrc: false,
   presets: [
-    '@babel/preset-typescript'
-  ],
-  plugins: [
-    ['@babel/plugin-transform-runtime', {
-      polyfill: false
-    }],
-    '@babel/plugin-syntax-dynamic-import'
-  ]
-}
-
-export const babelConfigNode = {
-  ...babelConfig,
-  presets: [
-    ...babelConfig.presets,
+    '@babel/preset-typescript',
     [
       '@babel/preset-env',
       {
         targets: {
-          node: 6
+          node: '8.6.0'
         },
         modules: false
       }
@@ -30,9 +17,9 @@ export const babelConfigNode = {
 }
 
 export const babelConfigBrowser = {
-  ...babelConfig,
+  babelrc: false,
   presets: [
-    ...babelConfig.presets,
+    '@babel/preset-typescript',
     [
       '@babel/preset-env',
       {
@@ -42,5 +29,8 @@ export const babelConfigBrowser = {
         modules: false
       }
     ]
+  ],
+  plugins: [
+    '@babel/plugin-transform-runtime'
   ]
 }
