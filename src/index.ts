@@ -5,7 +5,7 @@ import {
   getDaysInMonth,
   setDate,
   startOfMonth
-} from 'date-fns/esm'
+} from 'date-fns'
 
 const DAYS_IN_WEEK = 7
 

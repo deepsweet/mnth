@@ -9,8 +9,7 @@ export const babelConfigNode = {
       {
         targets: {
           node: '8.6.0'
-        },
-        modules: false
+        }
       }
     ]
   ]
