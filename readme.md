@@ -1,6 +1,6 @@
 # mnth
 
-**:warning: Project has been transferred to [Bubble Dev metarepo](https://github.com/bubble-dev/_/tree/master/packages/mnth)**
+**:warning: Project has been transferred to [NexTools metarepo](https://github.com/nextools/metarepo/tree/master/packages/mnth)**
 
 [![npm](https://img.shields.io/npm/v/mnth.svg?style=flat-square)](https://www.npmjs.com/package/mnth) [![tests](https://img.shields.io/travis/deepsweet/mnth/master.svg?label=tests&style=flat-square)](https://travis-ci.org/deepsweet/mnth) [![coverage](https://img.shields.io/codecov/c/github/deepsweet/mnth.svg?style=flat-square)](https://codecov.io/github/deepsweet/mnth)
 
